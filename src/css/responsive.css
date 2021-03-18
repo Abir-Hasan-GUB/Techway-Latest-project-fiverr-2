@@ -1,0 +1,37 @@
+/* ================== Extra Large Screen =============== */
+@media only screen and (max-width: 1024px) {
+  
+  }
+  
+  /* =================== Large Screen ===================== */
+  @media only screen and (max-width: 980px) {
+  
+  
+  }
+  
+  /* =============Midium Devices ================= */
+  
+  @media only screen and (max-width: 768px) {
+  
+  }
+  
+  /* =============Small Devices ================= */
+  
+  @media only screen and (max-width: 480px) {
+
+  }
+  
+  
+  /* ============= Extra Small Devices ================= */
+  
+  @media only screen and (max-width: 320px) {
+        /* =========== Nav Bar =========== */
+        .navbar-nav .nav-link{
+            padding: 0.5rem 0 !important;
+        }
+        .navbar-brand{
+            color: #1C1C1C;
+            font-weight: 700;
+            font-size: 18px !important;
+        }
+  }

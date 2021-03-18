@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,51 @@
 
     <!-- --------------- Google Fonts -------------- -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-<!-- ------------------ External CSS --------------- -->
+    <!-- ------------------ External CSS --------------- -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
+
 <body>
- 
+
+    <!-- ======================= Nav Bar Start ================= -->
+    <section id="navBar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">Logo here...</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-lg-5 pl-lg-5">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Programs <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Employers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recruiters</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn navbarButton button my-2 my-sm-0" type="submit">Apply Now</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- ======================= Nav Bar End ================= -->
     
 
     <!-- JS FILES -->
@@ -24,4 +61,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/5857fbd9b0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
