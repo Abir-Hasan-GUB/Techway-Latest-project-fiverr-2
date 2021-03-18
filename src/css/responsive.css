@@ -23,7 +23,7 @@
         padding: 21px;
         width: 58%;
     }
-    
+
   }
   
   /* =================== Large Screen ===================== */
@@ -177,5 +177,10 @@
         }
         #banner .bannerLeft input {
             padding: 21px;
+        }
+
+        /* ============= featuredIn Start =========== */
+        #featuredIn .feturedImg img {
+            width: 115px;
         }
   }

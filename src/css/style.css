@@ -2,15 +2,21 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   background: #F7F9FB; }
+  body .extraPadding {
+    padding: 0 5.25% 0 5.25%; }
   body h1 {
-    font-size: 28px;
+    font-size: 29px;
     font-weight: 600;
     color: #000000;
     line-height: 1.5; }
   body h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     color: #000000; }
+  body h3 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px; }
   body h5 {
     font-size: 24px;
     color: #333333;
@@ -22,7 +28,7 @@ body {
   body .colorText {
     color: #46AAA8; }
   body p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #556575; }
     body p img {
@@ -68,7 +74,7 @@ body {
   font-size: 28px; }
 
 #banner .bannerLeft {
-  margin-left: 9rem; }
+  margin-left: 5rem; }
   #banner .bannerLeft .banner-description {
     color: #000000; }
   #banner .bannerLeft input {
@@ -94,4 +100,61 @@ body {
   font-weight: 400; }
 
 #banner .bannerRight {
-  margin-left: 2rem; }
+  margin-left: 6rem; }
+
+#featuredIn .featured h5 {
+  color: #556575;
+  font-size: 18px; }
+
+#featuredIn .feturedImg {
+  margin: 0 auto; }
+  #featuredIn .feturedImg img {
+    width: 190px; }
+
+#premeumWork .card-deck .card {
+  border: none; }
+  #premeumWork .card-deck .card h3 {
+    font-size: 14px; }
+  #premeumWork .card-deck .card p {
+    font-size: 14px;
+    text-align: center; }
+
+#ourProgram .programElement {
+  margin: 0 auto;
+  width: 75%; }
+
+#ourProgram .element-separator {
+  width: 47.5%;
+  background: #344B66; }
+  #ourProgram .element-separator h5 {
+    font-size: 20px;
+    color: #fff; }
+
+#ourProgram .techwayRight {
+  position: relative; }
+
+#ourProgram .playBtn {
+  height: 100px;
+  width: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  cursor: pointer; }
+  #ourProgram .playBtn i {
+    color: #46AAA8;
+    font-size: 45px;
+    line-height: 100px; }
+
+#ourProgram .techwayLeft h2 {
+  line-height: 1.5; }
