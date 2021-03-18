@@ -3,9 +3,10 @@ body {
     font-size: 18px;
     background: #F7F9FB;
     h1 {
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 600;
         color: #000000;
+        line-height: 1.5;
     }
 
     h2 {
@@ -28,6 +29,14 @@ body {
 
     .colorText {
         color: #46AAA8;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        color: #556575;
+        img{
+            height: 20px !important;
+        }
     }
 
     .smallText {
@@ -68,6 +77,8 @@ body {
     }
 }
 
+// ============== Nav Bar Start ==============
+
 #navBar{
     .navbar-nav .nav-link{
         padding: 0.5rem 1.5rem;
@@ -82,3 +93,37 @@ body {
         font-size: 28px;
     }
 }
+// ============== Nav Bar End ==============
+
+// ============== Banner Start ==============
+#banner{
+    .bannerLeft{
+        .banner-description{
+            color: #000000;
+        }
+        input{
+            width: 61%;
+            background: #FFFF;
+            border: 1px solid #E7E7E7;
+            padding: 27px;
+            ::placeholder{
+                color: #333333;
+                font-size: 19px;
+                font-weight: 300;
+            }
+        }
+        .bannerForm{
+            button{
+                width: 32%;
+                padding: 15px 0;
+                text-transform: uppercase;
+                background: #344B66;
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+// ============== Banner End ==============
