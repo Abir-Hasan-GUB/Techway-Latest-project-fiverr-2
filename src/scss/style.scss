@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     background: #F7F9FB;
     h1 {
-        font-size: 35px;
+        font-size: 28px;
         font-weight: 600;
         color: #000000;
         line-height: 1.5;
@@ -98,6 +98,7 @@ body {
 // ============== Banner Start ==============
 #banner{
     .bannerLeft{
+        margin-left: 9rem;
         .banner-description{
             color: #000000;
         }
@@ -105,7 +106,7 @@ body {
             width: 61%;
             background: #FFFF;
             border: 1px solid #E7E7E7;
-            padding: 27px;
+            padding: 28px;
             ::placeholder{
                 color: #333333;
                 font-size: 19px;
@@ -122,7 +123,15 @@ body {
                 font-size: 16px;
                 font-weight: 500;
             }
+            
         }
+    }
+    .topRate{
+        color: #181616;
+        font-weight: 400;
+    }
+    .bannerRight{
+        margin-left: 2rem;
     }
 }
 

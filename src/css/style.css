@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   background: #F7F9FB; }
   body h1 {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
     color: #000000;
     line-height: 1.5; }
@@ -67,24 +67,31 @@ body {
   font-weight: 700;
   font-size: 28px; }
 
-#banner .bannerLeft .banner-description {
-  color: #000000; }
+#banner .bannerLeft {
+  margin-left: 9rem; }
+  #banner .bannerLeft .banner-description {
+    color: #000000; }
+  #banner .bannerLeft input {
+    width: 61%;
+    background: #FFFF;
+    border: 1px solid #E7E7E7;
+    padding: 28px; }
+    #banner .bannerLeft input ::placeholder {
+      color: #333333;
+      font-size: 19px;
+      font-weight: 300; }
+  #banner .bannerLeft .bannerForm button {
+    width: 32%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    background: #344B66;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500; }
 
-#banner .bannerLeft input {
-  width: 61%;
-  background: #FFFF;
-  border: 1px solid #E7E7E7;
-  padding: 27px; }
-  #banner .bannerLeft input ::placeholder {
-    color: #333333;
-    font-size: 19px;
-    font-weight: 300; }
+#banner .topRate {
+  color: #181616;
+  font-weight: 400; }
 
-#banner .bannerLeft .bannerForm button {
-  width: 32%;
-  padding: 15px 0;
-  text-transform: uppercase;
-  background: #344B66;
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: 500; }
+#banner .bannerRight {
+  margin-left: 2rem; }
