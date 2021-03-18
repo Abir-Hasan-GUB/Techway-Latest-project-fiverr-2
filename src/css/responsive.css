@@ -1,10 +1,39 @@
 /* ================== Extra Large Screen =============== */
 @media only screen and (max-width: 1024px) {
-  
+    body h1{
+        font-size: 24px;
+    }
+    body p{
+        font-size: 14px;
+    }
+
+    /* =============== Banner ============= */
+    #banner .bannerLeft{
+        margin-left: 5rem;
+    }
+    #banner .bannerRight{
+        margin-left: 4rem;
+    }
+    #banner .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+        width: 30%;
+    }
+    #banner .bannerLeft input {
+        padding: 21px;
+        width: 58%;
+    }
+    
   }
   
   /* =================== Large Screen ===================== */
   @media only screen and (max-width: 980px) {
+    body h1{
+        font-size: 17px;
+    }
+    body p{
+        font-size: 14px;
+    }
    /* =========== Nav Bar =========== */
    .navbar-nav .nav-link{
     padding: 0.5rem 0 !important;
@@ -13,6 +42,27 @@
     color: #1C1C1C;
     font-weight: 700;
     font-size: 22px !important;
+}
+
+/* =============== Banner ================= */
+
+#banner .bannerLeft{
+    margin-left: 5rem;
+}
+#banner .bannerRight{
+    margin-left: 0;
+}
+#banner .bannerLeft .bannerForm button {
+    padding: 11px 0;
+    font-size: 11px;
+    width: 30%;
+}
+#banner .bannerLeft input {
+    padding: 21px;
+    width: 58%;
+}
+#banner .bannerLeft input::placeholder {
+    font-size: 14px;
 }
   
   }
