@@ -45,6 +45,8 @@ body {
   body .navbarButton {
     background: #FFFFFF;
     color: #333333; }
+  body .navbarButton:hover {
+    color: #333333; }
 
 #navBar .navbar-nav .nav-link {
   padding: 0.5rem 1.5rem;
