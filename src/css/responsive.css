@@ -27,6 +27,29 @@
         width: 58%;
     }
 
+    /* ================ Footer ================= */
+    #footer .bannerLeft{
+        margin-left: 5rem;
+    }
+    #footer .bannerRight{
+        margin-left: 4rem;
+    }
+    #footer .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+        width: 30%;
+    }
+    #footer .bannerLeft input {
+        padding: 21px;
+        width: 58%;
+    }
+    .footer h1 {
+        font-size: 22px;
+    }
+    .footer .career {
+        font-size: 15px;
+    }
+
   }
   
   /* =================== Large Screen ===================== */
@@ -106,6 +129,41 @@
 .employDownRight h2{
     font-size: 15px;
 }
+/* ================ Footer ================= */
+#footer .bannerLeft{
+    margin-left: 5rem;
+}
+#footer .bannerRight{
+    margin-left: 0;
+}
+#footer .bannerLeft .bannerForm button {
+    padding: 11px 0;
+    font-size: 11px;
+    width: 30%;
+}
+#footer .bannerLeft input {
+    padding: 21px;
+    width: 58%;
+}
+#footer .bannerLeft input::placeholder {
+    font-size: 14px;
+}
+
+.footer h1 {
+    font-size: 17px;
+}
+.footer .footerRight ul div li {
+    font-size: 14px;
+}
+.footer .career {
+    font-size: 14px;
+}
+.footer .footerLink ul li {
+    font-size: 12px;
+}
+.footer .copyright small {
+    font-size: 12px;
+}
   }
   
   /* =============Midium Devices ================= */
@@ -177,10 +235,45 @@
 }
 /* ================ Empolye Market ============== */
 #employmentMarket .eployRight p {
-    font-size: 12px;
+    font-size: 15px;
 }
 #employmentMarket .eployRight .eployBorder {
     font-size: 13px;
+}
+
+/* ================= Footer ============= */
+#footer .bannerLeft{
+    margin-left: 5rem;
+}
+#footer .bannerRight{
+    margin-left: 0;
+}
+#footer .bannerLeft .bannerForm button {
+    padding: 11px 0;
+    font-size: 11px;
+    width: 30%;
+}
+#footer .bannerLeft input {
+    padding: 21px;
+    width: 58%;
+}
+#footer .bannerLeft input::placeholder {
+    font-size: 14px;
+}
+.footer h1 {
+    font-size: 17px;
+}
+.footer .footerRight ul div li {
+    font-size: 14px;
+}
+.footer .career {
+    font-size: 14px;
+}
+.footer .footerLink ul li {
+    font-size: 12px;
+}
+.footer .copyright small {
+    font-size: 12px;
 }
   }
   
@@ -231,7 +324,35 @@
 .programResDevice{
     margin-bottom: 15px !important;
 }
-
+ /* ============== Footer ========= */
+ .footer h1 {
+    font-size: 17px;
+}
+.footer .bannerLeft {
+    margin-left: 0;
+}
+.footer .career {
+    font-size: 15px;
+}
+.footer .bannerRight {
+    margin-left: 0;
+}
+.footer .bannerLeft .bannerForm button {
+    padding: 16px 0;
+    font-size: 12px;
+}
+.footer .copyright small {
+    font-size: 10px;
+}
+.footer .footerRight ul div li {
+    font-size: 14px !important;
+}
+.footer .footerLink ul li{
+    font-size: 14px;
+}
+.footer .extraPadding{
+    padding: 0;
+}
 
   }
   
@@ -308,5 +429,31 @@
         #employmentMarket .eployRight .eployBorder{
             border: none;
             font-size: 15px;
+        }
+        /* ============== Footer ========= */
+        .footer h1 {
+            font-size: 17px;
+        }
+        .footer .bannerLeft {
+            margin-left: 0;
+        }
+        .footer .career {
+            font-size: 15px;
+        }
+        .footer .bannerRight {
+            margin-left: 0;
+        }
+        .footer .bannerLeft .bannerForm button {
+            padding: 16px 0;
+            font-size: 12px;
+        }
+        .footer .copyright small {
+            font-size: 10px;
+        }
+        .footer .footerRight ul div li {
+            font-size: 14px !important;
+        }
+        .footer .footerLink ul li{
+            font-size: 14px;
         }
   }
