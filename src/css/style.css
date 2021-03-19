@@ -206,3 +206,9 @@ body {
   font-size: 16px;
   color: #333333;
   border-left: 5px solid #15BA8B; }
+
+#employmentMarket .employDownRight ul li {
+  font-size: 14px;
+  line-height: 2; }
+  #employmentMarket .employDownRight ul li img {
+    height: 15px; }
