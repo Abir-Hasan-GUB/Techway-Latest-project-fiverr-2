@@ -158,3 +158,22 @@ body {
 
 #ourProgram .techwayLeft h2 {
   line-height: 1.5; }
+
+#successStory .story {
+  font-size: 18px;
+  color: #556575; }
+
+#successStory .story::before {
+  content: "";
+  background: url("../images/success-stories-bg.png");
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  top: -10%;
+  left: 3.2%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+#successStory .stufBrif {
+  color: #161616; }

@@ -31,6 +31,9 @@
     body h1{
         font-size: 17px;
     }
+    body h2{
+        font-size: 16px;
+    }
     body p{
         font-size: 14px;
     }
@@ -64,6 +67,25 @@
 #banner .bannerLeft input::placeholder {
     font-size: 14px;
 }
+/* =============== Our Program Start ========= */
+#ourProgram .programElement{
+    width: 100%;
+}
+#ourProgram .element-separator h5{
+    font-size: 15px;
+}
+.programResDevice{
+    margin-bottom: 15px !important;
+}
+#ourProgram .playBtn{
+    top: 30%;
+    height: 75px;
+    width: 75px;
+}
+#ourProgram .playBtn i{
+    font-size: 25px;
+    line-height: 75px;
+}
   
   }
   
@@ -75,6 +97,9 @@
       }
       body p{
           font-size: 14px;
+      }
+      body h2{
+          font-size: 17px;
       }
    /* =========== Nav Bar =========== */
    .navbar-nav .nav-link{
@@ -105,6 +130,25 @@
 #banner .bannerLeft input::placeholder {
     font-size: 14px;
 }
+/* =============== Our Program Start ========= */
+#ourProgram .programElement{
+    width: 100%;
+}
+#ourProgram .element-separator h5{
+    font-size: 15px;
+}
+.programResDevice{
+    margin-bottom: 15px !important;
+}
+#ourProgram .playBtn{
+    top: 30%;
+    height: 75px;
+    width: 75px;
+}
+#ourProgram .playBtn i{
+    font-size: 25px;
+    line-height: 75px;
+}
 
   }
   
@@ -116,6 +160,10 @@
     }
     body h1{
         font-size: 28px;
+    }
+    body h2{
+        font-size: 22px;
+        text-align: center;
     }
  /* =========== Nav Bar =========== */
  .navbar-nav .nav-link{
@@ -141,6 +189,16 @@
 #banner .bannerLeft input {
     padding: 21px;
 }
+/* =============== Our Program Start ========= */
+#ourProgram .programElement{
+    width: 100%;
+}
+#ourProgram .element-separator h5{
+    font-size: 15px;
+}
+.programResDevice{
+    margin-bottom: 15px !important;
+}
 
 
   }
@@ -154,6 +212,10 @@
       }
       body h1{
           font-size: 19px;
+      }
+      body h2{
+          font-size: 18px;
+          text-align: center;
       }
 
         /* =========== Nav Bar =========== */
@@ -182,5 +244,19 @@
         /* ============= featuredIn Start =========== */
         #featuredIn .feturedImg img {
             width: 115px;
+        }
+
+        /* ==============Our Program Start ========= */
+        .programElement{
+            display: block !important;
+        }
+        #ourProgram .programElement{
+            width: 100%;
+        }
+        #ourProgram .element-separator{
+            width: 100%;
+        }
+        #ourProgram .element-separator h5 {
+            font-size: 15px;
         }
   }
