@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: #F7F9FB; }
+  background: #FFF; }
   body .extraPadding {
     padding: 0 5.25% 0 5.25%; }
   body h1 {
@@ -61,55 +61,59 @@ body {
   body .navbarButton:hover {
     color: #333333; }
 
-#navBar .navbar-nav .nav-link {
-  padding: 0.5rem 1.5rem;
-  color: #000000;
-  font-weight: 500;
-  font-size: 18px;
-  text-transform: capitalize; }
+#navBar {
+  background: #F7F9FB; }
+  #navBar .navbar-nav .nav-link {
+    padding: 0.5rem 1.5rem;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize; }
+  #navBar .navbar-brand {
+    color: #1C1C1C;
+    font-weight: 700;
+    font-size: 28px; }
 
-#navBar .navbar-brand {
-  color: #1C1C1C;
-  font-weight: 700;
-  font-size: 28px; }
+#banner {
+  background: #F7F9FB; }
+  #banner .extraMarginbyPadding {
+    padding: 3rem 0; }
+  #banner .bannerLeft {
+    margin-left: 5rem; }
+    #banner .bannerLeft .banner-description {
+      color: #000000; }
+    #banner .bannerLeft input {
+      width: 61%;
+      background: #FFFF;
+      border: 1px solid #E7E7E7;
+      padding: 28px; }
+      #banner .bannerLeft input ::placeholder {
+        color: #333333;
+        font-size: 19px;
+        font-weight: 300; }
+    #banner .bannerLeft .bannerForm button {
+      width: 32%;
+      padding: 15px 0;
+      text-transform: uppercase;
+      background: #344B66;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500; }
+  #banner .topRate {
+    color: #181616;
+    font-weight: 400; }
+  #banner .bannerRight {
+    margin-left: 6rem; }
 
-#banner .bannerLeft {
-  margin-left: 5rem; }
-  #banner .bannerLeft .banner-description {
-    color: #000000; }
-  #banner .bannerLeft input {
-    width: 61%;
-    background: #FFFF;
-    border: 1px solid #E7E7E7;
-    padding: 28px; }
-    #banner .bannerLeft input ::placeholder {
-      color: #333333;
-      font-size: 19px;
-      font-weight: 300; }
-  #banner .bannerLeft .bannerForm button {
-    width: 32%;
-    padding: 15px 0;
-    text-transform: uppercase;
-    background: #344B66;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500; }
-
-#banner .topRate {
-  color: #181616;
-  font-weight: 400; }
-
-#banner .bannerRight {
-  margin-left: 6rem; }
-
-#featuredIn .featured h5 {
-  color: #556575;
-  font-size: 18px; }
-
-#featuredIn .feturedImg {
-  margin: 0 auto; }
-  #featuredIn .feturedImg img {
-    width: 190px; }
+#featuredIn {
+  background: #F7F9FB; }
+  #featuredIn .featured h5 {
+    color: #556575;
+    font-size: 18px; }
+  #featuredIn .feturedImg {
+    margin: 0 auto; }
+    #featuredIn .feturedImg img {
+      width: 190px; }
 
 #premeumWork .card-deck .card {
   border: none; }
@@ -177,3 +181,28 @@ body {
 
 #successStory .stufBrif {
   color: #161616; }
+
+#successStory .card-deck .card {
+  box-shadow: 0px 0px 30px #dbdbdb;
+  border: 1px solid #dbdbdb; }
+  #successStory .card-deck .card .card-title {
+    font-size: 15px;
+    color: #333333; }
+    #successStory .card-deck .card .card-title i {
+      color: #46AAA8; }
+
+#employmentMarket .eployLeft {
+  box-shadow: 0px 0px 10px #dbdbdb; }
+  #employmentMarket .eployLeft h2 {
+    line-height: 1.7; }
+  #employmentMarket .eployLeft p {
+    line-height: 1.8; }
+
+#employmentMarket .eployRight p {
+  font-size: 15px;
+  color: #556575; }
+
+#employmentMarket .eployRight .eployBorder {
+  font-size: 16px;
+  color: #333333;
+  border-left: 5px solid #15BA8B; }

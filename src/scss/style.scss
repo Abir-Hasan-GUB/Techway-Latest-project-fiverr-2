@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    background: #F7F9FB;
+    background: #FFF;
     .extraPadding{
         padding: 0 5.25% 0 5.25%;
     }
@@ -87,6 +87,7 @@ h3{
 // ============== Nav Bar Start ==============
 
 #navBar{
+    background: #F7F9FB;
     .navbar-nav .nav-link{
         padding: 0.5rem 1.5rem;
         color: #000000;
@@ -104,6 +105,10 @@ h3{
 
 // ============== Banner Start ==============
 #banner{
+    background: #F7F9FB;
+    .extraMarginbyPadding{
+        padding: 3rem 0;
+    }
     .bannerLeft{
         margin-left: 5rem;
         .banner-description{
@@ -147,6 +152,7 @@ h3{
 // ===============featuredIn Start===========
 
 #featuredIn{
+    background: #F7F9FB;
     .featured{
         // margin: 0 auto;
         h5{
@@ -257,7 +263,47 @@ h3{
     .stufBrif{
         color: #161616;
     }
+    .card-deck{
+        .card{
+            box-shadow: 0px 0px 30px #dbdbdb;
+            border: 1px solid #dbdbdb;
+
+            .card-title{
+                font-size: 15px;
+                color: #333333;
+                i{
+                    color: #46AAA8;
+                }
+            }
+        }
+    }
 }
 
 // ===============successStory End===========
+
+// ===============Empolye Start===========/
+#employmentMarket{
+    .eployLeft{
+        // background: red;
+        box-shadow: 0px 0px 10px #dbdbdb;
+        h2{
+            line-height: 1.7;
+        }
+        p{
+            line-height: 1.8;
+        }
+    }
+    .eployRight{
+        p{
+            font-size: 15px;
+            color: #556575;
+        }
+        .eployBorder{
+            font-size: 16px;
+            color: #333333;
+            border-left: 5px solid #15BA8B;
+        }
+    }
+}
+// ===============Empolye End===========/
 

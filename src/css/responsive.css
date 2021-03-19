@@ -272,6 +272,9 @@
         #ourProgram .element-separator h5 {
             font-size: 15px;
         }
+        #ourProgram .playBtn{
+            top: 50%;
+        }
         /* ============= success Story =========== */
         #successStory .story::before{
             top: 0;
