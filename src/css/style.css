@@ -191,6 +191,9 @@ body {
     #successStory .card-deck .card .card-title i {
       color: #46AAA8; }
 
+#employmentMarket h2 {
+  line-height: 1.7; }
+
 #employmentMarket .eployLeft {
   box-shadow: 0px 0px 10px #dbdbdb; }
   #employmentMarket .eployLeft h2 {
@@ -207,8 +210,12 @@ body {
   color: #333333;
   border-left: 5px solid #15BA8B; }
 
-#employmentMarket .employDownRight ul li {
-  font-size: 14px;
+#employmentMarket .employDownRight p {
+  font-size: 15px; }
+
+#employmentMarket .employDownRight ul div li {
+  font-size: 13.5px;
   line-height: 2; }
-  #employmentMarket .employDownRight ul li img {
-    height: 15px; }
+
+#employmentMarket .employDownRight ul div img {
+  height: 14px; }
