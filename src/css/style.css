@@ -4,6 +4,11 @@ body {
   background: #FFF; }
   body .extraPadding {
     padding: 0 5.25% 0 5.25%; }
+  body a {
+    color: #000; }
+  body a:hover {
+    text-decoration: none;
+    color: #000; }
   body h1 {
     font-size: 29px;
     font-weight: 600;
@@ -74,24 +79,24 @@ body {
     font-weight: 700;
     font-size: 28px; }
 
-#banner {
+.banner {
   background: #F7F9FB; }
-  #banner .extraMarginbyPadding {
+  .banner .extraMarginbyPadding {
     padding: 3rem 0; }
-  #banner .bannerLeft {
+  .banner .bannerLeft {
     margin-left: 5rem; }
-    #banner .bannerLeft .banner-description {
+    .banner .bannerLeft .banner-description {
       color: #000000; }
-    #banner .bannerLeft input {
+    .banner .bannerLeft input {
       width: 61%;
       background: #FFFF;
       border: 1px solid #E7E7E7;
       padding: 28px; }
-      #banner .bannerLeft input ::placeholder {
+      .banner .bannerLeft input ::placeholder {
         color: #333333;
         font-size: 19px;
         font-weight: 300; }
-    #banner .bannerLeft .bannerForm button {
+    .banner .bannerLeft .bannerForm button {
       width: 32%;
       padding: 15px 0;
       text-transform: uppercase;
@@ -99,10 +104,10 @@ body {
       color: #FFFFFF;
       font-size: 16px;
       font-weight: 500; }
-  #banner .topRate {
+  .banner .topRate {
     color: #181616;
     font-weight: 400; }
-  #banner .bannerRight {
+  .banner .bannerRight {
     margin-left: 6rem; }
 
 #featuredIn {
@@ -215,7 +220,49 @@ body {
 
 #employmentMarket .employDownRight ul div li {
   font-size: 13.5px;
-  line-height: 2; }
+  line-height: 2;
+  color: #000; }
 
 #employmentMarket .employDownRight ul div img {
   height: 14px; }
+
+#employmentMarket .employDownRight .textMedium li {
+  font-weight: 500;
+  font-size: 12px; }
+
+.footer h1 {
+  font-size: 27px; }
+
+.footer .bannerForm .footerBtn {
+  background: #46AAA8 !important; }
+
+.footer .career {
+  font-size: 20px;
+  color: #010101; }
+
+.footer .footerRight ul div img {
+  height: 17px; }
+
+.footer .footerRight ul div li {
+  font-size: 17px;
+  line-height: 2.5;
+  color: #000;
+  font-weight: 500; }
+
+.footer .divSeparetor {
+  height: 1px;
+  width: 83%;
+  background: #707070;
+  opacity: 30%;
+  margin-left: 7.5%; }
+
+.footer .footerLink ul li {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  line-height: 2; }
+
+.footer .copyright small {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000; }

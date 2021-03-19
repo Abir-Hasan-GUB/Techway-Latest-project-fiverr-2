@@ -5,6 +5,13 @@ body {
     .extraPadding{
         padding: 0 5.25% 0 5.25%;
     }
+    a{
+        color: #000;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #000;
+    }
     h1 {
         font-size: 29px;
         font-weight: 600;
@@ -104,7 +111,7 @@ h3{
 // ============== Nav Bar End ==============
 
 // ============== Banner Start ==============
-#banner{
+.banner{
     background: #F7F9FB;
     .extraMarginbyPadding{
         padding: 3rem 0;
@@ -308,6 +315,7 @@ h3{
         }
     }
     .employDownRight{
+        
         p{
             font-size: 15px;
         }
@@ -316,10 +324,17 @@ h3{
                 li{
                 font-size: 13.5px;
                 line-height: 2;
+                color: #000;
             }
                 img{
                     height: 14px;
                 }
+            }
+        }
+        .textMedium{
+            li{
+                font-weight: 500;
+                font-size: 12px;
             }
         }
     }
@@ -327,4 +342,57 @@ h3{
 }
 
 // ===============Empolye End===========/
+
+// ===============Footer Start===========/
+.footer{
+    h1{
+        font-size: 27px;
+    }
+    .bannerForm{
+        .footerBtn{
+        background: #46AAA8 !important;
+    }
+    
+}
+.career{
+    font-size: 20px;
+    color: #010101;
+}
+.footerRight{
+    ul div{
+        img{
+            height: 17px;
+        }
+        li{
+            font-size: 17px;
+            line-height: 2.5;
+            color: #000;
+            font-weight: 500;
+        }
+    }
+}
+.divSeparetor{
+    height: 1px;
+    width: 83%;
+    background: #707070;
+    opacity: 30%;
+    margin-left: 7.5%;
+}
+.footerLink{
+    ul li{
+        font-size: 16px;
+        color: #000000;
+        font-weight: 500;
+        line-height: 2;
+    }
+}
+.copyright{
+    small{
+        font-size: 14px;
+        font-weight: 500;
+        color: #000000;
+    }
+}
+}
+// ===============Footer End===========/
 

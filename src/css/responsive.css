@@ -6,6 +6,9 @@
     body p{
         font-size: 14px;
     }
+    body h2 {
+        font-size: 22px;
+    }
 
     /* =============== Banner ============= */
     #banner .bannerLeft{
@@ -93,7 +96,16 @@
 #successStory .story::before{
     left: 5%;
 }
-  
+  /* ================ Empolye Market ============== */
+#employmentMarket .eployRight p {
+    font-size: 12px;
+}
+#employmentMarket .eployRight .eployBorder {
+    font-size: 13px;
+}
+.employDownRight h2{
+    font-size: 15px;
+}
   }
   
   /* =============Midium Devices ================= */
@@ -162,6 +174,13 @@
 }
 #successStory .story::before{
     left: 5%;
+}
+/* ================ Empolye Market ============== */
+#employmentMarket .eployRight p {
+    font-size: 12px;
+}
+#employmentMarket .eployRight .eployBorder {
+    font-size: 13px;
 }
   }
   
@@ -281,5 +300,13 @@
         }
         #successStory .stufBrif{
             font-size: 17px;
+        }
+        /* ============== employment market ============ */
+        .employWidthCtrl{
+            width: 100% !important;
+        }
+        #employmentMarket .eployRight .eployBorder{
+            border: none;
+            font-size: 15px;
         }
   }
