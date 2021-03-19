@@ -86,6 +86,13 @@
     font-size: 25px;
     line-height: 75px;
 }
+/* ============= success Story =========== */
+#successStory .stufBrif{
+    font-size: 17px;
+}
+#successStory .story::before{
+    left: 5%;
+}
   
   }
   
@@ -149,7 +156,13 @@
     font-size: 25px;
     line-height: 75px;
 }
-
+ /* ============= success Story =========== */
+#successStory .stufBrif{
+    font-size: 17px;
+}
+#successStory .story::before{
+    left: 5%;
+}
   }
   
   /* =============Small Devices ================= */
@@ -258,5 +271,12 @@
         }
         #ourProgram .element-separator h5 {
             font-size: 15px;
+        }
+        /* ============= success Story =========== */
+        #successStory .story::before{
+            top: 0;
+        }
+        #successStory .stufBrif{
+            font-size: 17px;
         }
   }
